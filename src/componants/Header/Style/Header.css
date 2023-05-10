@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Trirong');
+#Header-links{
+    font-family: "Trirong", serif;
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin-left: 50px;
+    color: black;
+}
+#Header-links:hover{
+    transition-duration: 200ms;
+    color: rgb(189, 0, 0);
+}
+@media (max-width:900px) {
+    #Header-links{
+        font-size: 17px;
+        letter-spacing: 1px;
+        margin-left: 10px;
+        color: black;
+    }
+    
+}

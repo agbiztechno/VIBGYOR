@@ -1,0 +1,10 @@
+.MapForm{
+    background-color: rgba(247, 247, 247, 0.205);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.MapForm-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

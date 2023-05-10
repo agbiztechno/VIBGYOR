@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@600&display=swap');
+.Form-11{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Form{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.Form-1{
+    height: 400px;
+}
+.Form-2{
+    height: 400px;
+    background-color: rgba(127, 127, 127, 0.041);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 0px;
+    
+}
+.Form-3 h2{
+    font-family: 'Shantell Sans', cursive;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+.Form-3 p span{
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+#Form-icon{
+    font-size: 30px;
+}
+@media (max-width: 600px) {
+    .Form-1{
+        height: 400px;
+        background-color: rgba(127, 127, 127, 0.041);
+    }
+}
