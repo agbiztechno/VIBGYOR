@@ -1,0 +1,66 @@
+.enroll-main {
+  margin: 0 auto;
+  padding: 40px 0px;
+  color: white;
+
+}
+
+.enroll-content {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #2a758a;
+  padding: 120px;
+  text-align: center;
+  min-width: 200px;
+
+}
+
+.enroll-content h1 {
+  color: #ffffff;
+  min-width: 300px;
+  font-weight: 600;
+
+}
+
+.enroll-content p {
+  max-width: 1200px;
+  padding: 10px 0px;
+  min-width: 200px
+}
+
+.phone-wrap {
+  text-align: center;
+  display: flex;
+  align-items: center;
+
+}
+
+.phone-wrap {
+  font-size: 34px;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+
+}
+
+.phone-wrap img {
+  padding-right: 10px;
+}
+
+@media (max-width:768px) {
+  .enroll-content h1 {
+    min-width: 350px;
+  }
+
+  .phone-wrap div {
+    min-width: 300px;
+
+  }
+
+  .enroll-content p {
+    min-width: 290px
+  }
+}

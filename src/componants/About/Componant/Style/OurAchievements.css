@@ -1,0 +1,98 @@
+.our-achievements-1 {
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: 20px;
+    overflow: hidden;
+  }
+  
+  .flex {
+    display: flex;
+    align-items: center;
+  }
+  
+  .our-achievements-heading {
+    font-size: 1.9rem;
+    font-weight: bold;
+    color: #56225e;
+    margin-bottom: 1.1rem;
+  }
+  
+  .our-achievements-para {
+    color: #52575e;
+    
+  }
+  
+  .our-achievements-0 {
+    padding: 30px 20px 0;
+  }
+  
+  .our-achievements-2 {
+    gap: 30px;
+  }
+  
+  .our-achievements-4 {
+    width: 50%;
+    padding: 3rem;
+  }
+  
+  .our-achievements-4 img {
+    width: 100%;
+  }
+
+  /* .utube{
+    width: 100%;
+    height: 320px;
+  } */
+  
+  .our-achievements-3 {
+    width: 40%;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  @media screen and (max-width: 991px) {
+    .our-achievements-heading {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+      }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .our-achievements-2 {
+      flex-direction: column;
+      gap: 0px;
+
+    }
+    .our-achievements-4 {
+      width: 80%;
+      height: auto;
+    }
+    .our-achievements-3 {
+      width: 100%;
+      text-align: center;
+      align-items: center;
+    }
+    .our-achievements-para {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media screen and (max-width: 479px) {
+    .our-achievements-2 {
+      flex-direction: column;
+    }
+  
+    .our-achievements-heading {
+      font-size: 1.5rem;
+    }
+  
+    .our-achievements-para {
+      font-size: 1rem;
+    }
+    .our-achievements-4 {
+      width: 100%;
+      padding: 2rem;
+    }
+    
+  }
+  

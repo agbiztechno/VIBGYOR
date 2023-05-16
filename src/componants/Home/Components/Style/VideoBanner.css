@@ -1,0 +1,58 @@
+.videobanner-main {
+  width: 100%;
+  padding: 20px 20px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+}
+
+.videobanner-title h1 {
+  text-align: center;
+  color: #56225e;
+  padding: 12px 0px;
+  font-weight: 600;
+
+}
+
+.videobanner-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.videobanner-wrapper {
+  padding: 15px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  transition: all 0.3s ease-in-out;
+
+}
+
+.video-item {
+  width: 860px;
+  height: 500px;
+}
+
+.videobanner-wrapper:hover {
+  box-shadow: rgba(60, 64, 67, 0.3) 1px 2px 3px 1px, rgba(0, 0, 0, 0.176) 2px 4px 8px 4px;
+
+}
+
+@media (max-width:568px) {
+  .video-item {
+    width: 300px;
+    height: 200px;
+
+  }
+}
+
+@media (min-width:569px) and (max-width:968px) {
+  .video-item {
+    width: 600px;
+    height: 400px;
+
+  }
+}

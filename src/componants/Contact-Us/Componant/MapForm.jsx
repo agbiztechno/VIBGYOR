@@ -30,7 +30,7 @@ const MapForm = () => {
       .matches(phoneRegExp, "Phone number is not valid")
       .min(10, "too short")
       .max(10, "too long"),
-    yourquery: yup.string(),
+    yourquery: yup.string()
   });
 
   const user = useFormik({
@@ -38,7 +38,7 @@ const MapForm = () => {
       fullname: "",
       email: "",
       contact: "",
-      yourquery: "",
+      yourquery: ""
     },
     validationSchema: validate,
     onSubmit: async (values) => {
@@ -49,7 +49,7 @@ const MapForm = () => {
         method: "post",
         url: "https://v1.nocodeapi.com/roshanprajapati/google_sheets/knVODJeTTOlDMAfj",
         params: { tabId: "Sheet1" },
-        data: [[fullname, email, contact, cardtype, carddetails, yourquery]],
+        data: [[fullname, email, contact, cardtype, carddetails, yourquery]]
       })
         .then(function (response) {
           // handle success
@@ -65,7 +65,7 @@ const MapForm = () => {
           console.log(error);
           swal("Error", "All field are required", "warning");
         });
-    },
+    }
   });
   return (
     <div className="MapForm">
@@ -124,7 +124,8 @@ const MapForm = () => {
                 value={user.values.carddetails}
                 onChange={user.handleChange}
                 placeholder="Enter Your Query.."
-                as="textarea" rows={5}
+                as="textarea"
+                rows={5}
               />
             </Form.Group>
             <Button variant="primary" type="submit" id="galllay-button">

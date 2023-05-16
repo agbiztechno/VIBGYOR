@@ -1,0 +1,178 @@
+.about-main--container {
+  display: flex;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 20px 0px;
+  width: 100%;
+  max-width: 1200px;
+
+}
+
+.about-image--container {
+  position: relative;
+  margin-right: 100px;
+}
+
+.about-image--container img {
+  width: 550px;
+  height: 500px;
+  border-radius: 5px;
+  object-fit: cover;
+  padding: 8px;
+  border-radius: 2px;
+
+}
+
+img.about-first-img {
+  background-color: #ad1f2497;
+  position: absolute;
+  top: 261px;
+  left: -90px;
+  right: 0;
+  bottom: 0px;
+  width: 247px;
+  height: 269px;
+}
+
+img.about-second-img {
+  background-color: #138a1bbf;
+  padding: 8px;
+
+}
+
+.red-overlay {
+  background-color: #ad1f2497;
+  position: absolute;
+  width: 247px;
+  height: 269px;
+  top: 274px;
+  left: -103px;
+  right: 0;
+  z-index: -1;
+
+}
+
+.green-overlay {
+  background-color: #1fad2871;
+  position: absolute;
+  width: 550px;
+  height: 490px;
+  top: 23px;
+  left: -13px;
+  z-index: -1;
+}
+
+/* description section */
+
+.about-description--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin-left: -30px;
+
+}
+
+.about-header {
+  max-width: 90%;
+}
+
+.about-header h2 {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.about-header p {
+  padding: 5px 0px;
+  font-style: italic;
+}
+
+.about-subheader p {
+  max-width: 90%;
+  font-style: italic;
+
+}
+
+/* media-queries */
+
+@media screen and (max-width:990px) {
+  .about-main--container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-bottom: -40px;
+    align-items: center;
+    overflow: hidden;
+
+  }
+
+  .about-description--container {
+    display: flex;
+    padding-left: 40px;
+    align-items: center;
+  }
+
+
+  .about-header {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .about-header h2 {
+    font-size: 35px;
+  }
+
+  .about-subheader {
+    padding: 0px 40px;
+
+  }
+
+  .about-image--container {
+    margin: 0px;
+  }
+
+  .about-image--container img {
+    width: 300px;
+  }
+
+  .green-overlay {
+    width: 300px;
+  }
+
+  .red-overlay {
+    width: 247px;
+    left: -34px;
+  }
+
+  img.about-first-img {
+    position: absolute;
+    top: 261px;
+    left: -26px;
+    width: 247px;
+    height: 269px
+  }
+
+}
+
+@media (min-width:900px) and (max-width:1200px) {
+  .about-image--container img {
+    width: 450px;
+    height: 450px;
+    top: 23px;
+    left: -10px;
+
+  }
+
+  .green-overlay {
+    width: 450px;
+    height: 450px;
+
+  }
+
+  .about-image--container {
+    margin-left: 30px;
+  }
+}

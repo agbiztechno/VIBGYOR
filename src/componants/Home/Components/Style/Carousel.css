@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@700&display=swap');
+
+
+.carousel-main--container {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.carousel-image {
+  height: 750px;
+  object-fit: cover;
+  filter: brightness(.5);
+}
+
+.carousel-description {
+  position: absolute;
+  top: 35%;
+}
+
+.carousel-description p {
+  font-family: 'Urbanist', sans-serif;
+  text-align: center;
+  font-size: 60px;
+  font-weight: bolder;
+  padding-bottom: 10px;
+}
+
+.carousal-btn {
+  border-radius: 2rem;
+  background-color: #ad1f24ce;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  text-transform: uppercase;
+  padding: 22px 40px;
+  transition: all 0.5s ease-in-out;
+
+}
+
+.carousal-btn:hover {
+  background-color: #ffffffec;
+  color: #ad1f23;
+}
+
+@media screen and (max-width: 768px) {
+  .carousel-description p {
+    font-size: 35px;
+  }
+
+  .carousal-btn {
+    font-size: 16px;
+    padding: 10px;
+  }
+}
