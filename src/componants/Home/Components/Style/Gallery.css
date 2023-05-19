@@ -92,6 +92,9 @@
 }
 
 @media (max-width: 600px) {
+  .gallery-container {
+    max-width: 300px;
+  }
   .gallery-main {
     padding: 50px 0;
   }

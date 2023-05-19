@@ -4,6 +4,9 @@ import "./Style/Footer2.css";
 import first from "../../Image/logo.png";
 import { Link } from "react-router-dom";
 const Footer = () => {
+  const redirectToGoogleForm = (formUrl) => {
+    window.open(formUrl, "_blank");
+  };
   return (
     <div className="complete">
       <footer className="container text-center text-lg-start text-dark stylefirst">
@@ -56,8 +59,8 @@ const Footer = () => {
                   </Link>
                 </p>
                 <p>
-                  <Link to="/Careers" className="footer-link">
-                  Careers
+                  <Link to="/Online-Application" className="footer-link">
+                  Online Application
                   </Link>
                 </p>
                 <p>
@@ -75,7 +78,7 @@ Chandauli Raibareli, India
                 </p>
                 <p>
                   <i className="fas fa-envelope mr-3"></i>{" "}
-                  principalofvibgyor@gmail.com
+                  principalofvibgyor @gmail.com
                 </p>
                 <p>
                   <i className="fas fa-phone mr-3"></i> +91-9451745323
@@ -86,7 +89,11 @@ Chandauli Raibareli, India
         </section>
       </footer>
       <div className="text-center p-3 stylefour">
-      © 2023 Vibgyor Public School : Made by AGBIZ
+      © 2023 <span style={{fontWeight: "600"}}>Vibgyor Public School</span> : Made by <a style={{cursor: "pointer", fontWeight: "600"}} onClick={() =>
+              redirectToGoogleForm(
+                "http://www.agbiztech.in/"
+              )
+            }>AGBIZ</a>
       </div>
     </div>
   );

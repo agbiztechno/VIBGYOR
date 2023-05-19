@@ -1,26 +1,32 @@
+import Image1 from '../Components/Images/Img1.jpg';
+import Image2 from '../Components/Images/Img2.jpg';
+import Image3 from '../Components/Images/Img3.jpg';
+import Image4 from '../Components/Images/Img4.jpg';
+import Image5 from '../Components/Images/Img5.jpg';
+import Image6 from '../Components/Images/Img6.jpg';
 const Galleries = {
   Heading: "Photo Gallery",
   SubHeading:
-    "Lorem ipsum dolor sit amet, adipiscing elit. Vivamus nibh dolor,gravida faucibus dolor consectetur.",
+    "Step into a world of captivating memories through our dynamic photo gallery. Get ready to be inspired and share in the pride of our remarkable journey.",
 
   cards: [
     {
-      img: "http://www.vibgyorpublicschool.com/uploads/images/gallary/1570336959.JPG"
+      img: Image1
     },
     {
-      img: "http://www.vibgyorpublicschool.com/uploads/images/gallary/1563354637.jpg"
+      img: Image2
     },
     {
-      img: "http://www.vibgyorpublicschool.com/uploads/images/gallary/1570336393.jpg"
+      img: Image3
     },
     {
-      img: "http://www.vibgyorpublicschool.com/uploads/images/gallary/1570336493.jpg"
+      img: Image4
     },
     {
-      img: "http://www.vibgyorpublicschool.com/uploads/images/gallary/1570336525.jpg"
+      img: Image5
     },
     {
-      img: "http://www.vibgyorpublicschool.com/uploads/images/gallary/1570336803.JPG"
+      img: Image6
     }
   ]
 };

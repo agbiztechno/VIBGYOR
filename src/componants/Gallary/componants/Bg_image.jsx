@@ -1,6 +1,6 @@
 import react from "react";
 import "../Style/bg_image.css";
-import image1 from '../images/background-image_final.png'
+import image1 from '../Images/1.jpg'
 
 
 const Bg_image = (props) => {

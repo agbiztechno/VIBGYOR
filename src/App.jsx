@@ -5,9 +5,11 @@ import Header from './componants/Header/Header';
 import Footer from './componants/Footer/Footer2';
 import Home from './componants/Home/Home';
 import About from './componants/About/About';
-// import ContactUs from './componants/Contact-Us/ContactUs';
+import ContactUs from './componants/Contact-Us/ContactUs';
 import Gallary from './componants/Gallary/Gallary';
 import Careers from './componants/Careers/Careers';
+import OnlineApplication from './componants/OnlineApplication/OnlineApplication';
+import Apply from './componants/Apply-Now/Apply';
 function App() {
 
 
@@ -17,10 +19,12 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/About-Us' element={<About />} />
-        {/* <Route path='/Contact-Us' element={<ContactUs/>}/> */}
+        <Route path='/Contact-Us' element={<ContactUs/>}/>
         <Route path='/Gallary' element={<Gallary />} />
+        <Route path='/Online-Application' element={<OnlineApplication />} />
         <Route path='/Careers' element={<Careers />} />
       </Routes>
+      <Apply />
       <Footer />
     </div>
   )

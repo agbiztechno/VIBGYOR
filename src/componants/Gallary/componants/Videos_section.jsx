@@ -48,9 +48,6 @@ const Videos_section = () => {
             )}
             <div className="Videos_section_video-card-info">
               <h3 className="Videos_section_video-card-title">{video.title}</h3>
-              {/* <p className="Videos_section_video-card-description"> */}
-                {/* {video.description} */}
-              {/* </p> */}
             </div>
           </div>
         ))}

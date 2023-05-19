@@ -44,7 +44,7 @@
   color: #ad1f23;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   .carousel-description p {
     font-size: 35px;
   }

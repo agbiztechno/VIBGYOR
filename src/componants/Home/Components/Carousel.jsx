@@ -1,11 +1,12 @@
 import React from "react";
 import "./Style/Carousel.css";
-
+import { useNavigate } from "react-router-dom";
 import Carousel from "react-bootstrap/Carousel";
 import { Typography } from "@mui/material";
 
 const SlideShow = (props) => {
-  //   console.log("🚀 ~ file: Carousel.jsx:8 ~ SlideShow ~ props:", props);
+
+  const navigate = useNavigate();
   const image = props.data.type.images[0];
   const description = props.data.type.Description[0];
   const subDescription = props.data.type.SubDescription[0];
@@ -13,6 +14,8 @@ const SlideShow = (props) => {
   const redirectToGoogleForm = (formUrl) => {
     window.open(formUrl, "_blank");
   };
+
+  
 
   return (
     <Carousel className="carousel-main--container">
@@ -68,7 +71,7 @@ const SlideShow = (props) => {
           <Typography>{description.desc3}</Typography>
           {/* issue with link */}
           <button
-            onClick={() => redirectToGoogleForm("#")}
+            onClick={() => navigate("/Online-Application")}
             className="carousal-btn"
           >
             {subDescription.subdesc3}

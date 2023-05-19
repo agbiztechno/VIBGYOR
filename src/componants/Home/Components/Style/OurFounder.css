@@ -76,3 +76,14 @@
     max-width: 1024px;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .founder-image img {
+    float: left;
+    padding-top: 10px;
+    padding-right: 0px;
+    height: auto;
+    height: 350px;
+    width: 100%;
+  }
+}

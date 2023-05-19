@@ -9,11 +9,11 @@ const OurQualities = {
   ],
   Paragraph: [
     {
-      one: "Lorem ipsum dolor sit, adipisicing elit. Et in nisi corporis laboriosam laborum hic doloribus sint ratione tempore quibusdam",
-      two: "Lorem ipsum dolor sit, adipisicing elit. Et in nisi corporis laboriosam laborum hic doloribus sint ratione tempore quibusdam",
+      one: "Skilled educators and effective methods inspire skill development and foster motivation in our learners.",
+      two: "At our school, we are committed to providing a quality education that prepares our students for lifelong success.",
       three:
-        "Lorem ipsum dolor sit, adipisicing elit. Et in nisi corporis laboriosam laborum hic doloribus sint ratione tempore quibusdam",
-      four: "Lorem ipsum dolor sit, adipisicing elit. Et in nisi corporis laboriosam laborum hic doloribus sint ratione tempore quibusdam"
+        "Our commitment extends beyond the classroom, ensuring our students have the tools and support they need to navigate their future paths",
+      four: "Don't miss the chance to apply and secure funding for your higher education journey. For more update visit our scholarship page."
     }
   ]
 };

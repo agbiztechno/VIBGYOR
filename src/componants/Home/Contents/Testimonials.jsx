@@ -3,24 +3,19 @@ const Testimonials = {
   SubHeading: "What Parents Say",
   cards: [
     {
-      name: "John Doe",
+      name: "Mr. and Mrs. Verma",
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nulla sapien. Integer nec fringilla neque. Nam gravida massa vel ultricies consequat."
+        "We are truly excited to mention that; this school was a great choice for our child. We are happy to see the change and the way he has got adjusted to the new environment so quickly and easily."
     },
     {
-      name: "Jane Smith",
+      name: "Shailendra and Priyanshu Sharma",
       content:
-        "Ut fringilla malesuada placerat. Donec bibendum tristique libero sed malesuada. Vestibulum sed magna accumsan, tempor velit eu, accumsan lacus."
+        "We would also like to thank Greenfield staff and management for all their support and cooperation this whole time by keeping our children motivated through different virtual activities."
     },
     {
-      name: "John Doe",
+      name: "Mr. and Mrs. Thampi",
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nulla sapien. Integer nec fringilla neque. Nam gravida massa vel ultricies consequat."
-    },
-    {
-      name: "Jane Smith",
-      content:
-        "Ut fringilla malesuada placerat. Donec bibendum tristique libero sed malesuada. Vestibulum sed magna accumsan, tempor velit eu, accumsan lacus."
+        "Vibgyor Public School is a great place, where students are imparted excellent academic and extracurricular coaching. All students are treated equally and with respect. There is a positive energy flowing from the teachers and the office staff."
     }
   ]
 };

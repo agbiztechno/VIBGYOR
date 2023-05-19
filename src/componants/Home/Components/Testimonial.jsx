@@ -48,7 +48,7 @@ const Testimonial = (props) => {
     <div className="testimonial-container">
       <div className="testimonial-header">
         <h1>{props.data.Heading}</h1>
-        <h3>{props.data.SubHeading}</h3>
+        <h3 id="testimonial-h3">{props.data.SubHeading}</h3>
       </div>
       <div className="slider-container">
         <Slider {...settings}>

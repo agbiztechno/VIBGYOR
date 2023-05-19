@@ -1,6 +1,6 @@
 .banner_img{
   width: 100%;
-  height: 70vh;
+  height: 100%;
   background-repeat: no-repeat;
   background-size: contain;
   position: relative;
@@ -16,16 +16,14 @@
 
 .text_container_aboutus{
   display: flex;
-  position: absolute;
-  top: 35%;
-  left:28%;
-  background: rgba(255, 195, 60, 0.6);
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 196, 60, 0.313);
   padding: 10px;
   padding-bottom: 1px;
   font-size: 50px;
-  color: #fff;
+  color: rgb(133, 0, 0);
   font-family:font123!important;
-  /* padding: auto; */
 }
 @media (min-width:1550px)
 {

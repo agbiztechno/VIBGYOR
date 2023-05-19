@@ -1,7 +1,7 @@
 const Enrolls = {
   Heading: "Call To Enroll Your Child",
   SubHeading:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at eleifend est. Donec dictum at diam ut finibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Class aptent taciti sociosqu ad litora torquent.",
-  Number: "770 132 4657"
+    "Don't miss out on securing a bright future for your child. Take the first step towards their success by enrolling them in our esteemed school. With our exceptional programs, dedicated faculty, and supportive community, we provide the ideal environment for their growth and development. Call now to secure your child's place and embark on an educational journey filled with limitless possibilities.",
+  Number: "- 9451745323"
 };
 export default Enrolls;

@@ -11,12 +11,30 @@
     transition-duration: 200ms;
     color: rgb(189, 0, 0);
 }
+#Navbar-Image{
+    width: 100%;
+    height: 60px;
+}
 @media (max-width:900px) {
     #Header-links{
         font-size: 17px;
         letter-spacing: 1px;
         margin-left: 10px;
         color: black;
+    }
+    
+}
+
+@media (max-width:600px) {
+    #Header-links{
+        font-size: 17px;
+        letter-spacing: 1px;
+        margin-left: 10px;
+        color: black;
+    }
+    #Navbar-Image{
+        width: 100%;
+        height: 30px;
     }
     
 }

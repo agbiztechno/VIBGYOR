@@ -22,6 +22,7 @@
 }
 
 .testimonial-header h3 {
+  color: rgba(134, 0, 0, 0.772);
   font-size: 48px;
   letter-spacing: 0.3rem;
   font-weight: bolder;
@@ -70,10 +71,23 @@
   }
 }
 
+@media (max-width:640px) {
+  .testimonial-container {
+    max-width: 640px;
+  }
+  #testimonial-h3{
+    font-size: 30px;
+    letter-spacing: 0.3rem;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
+
 @media (min-width:768px) {
   .testimonial-container {
     max-width: 768px;
   }
+  
 }
 
 @media (min-width:1024px) {

@@ -1,26 +1,26 @@
+import Image1 from '../Components/Images/4.jpg'
 const About = {
   Images: [
     {
-      one: "https://plus.unsplash.com/premium_photo-1682092674304-f126a5cbb656?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-      two: "https://plus.unsplash.com/premium_photo-1682092674304-f126a5cbb656?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-    }
+      one: Image1,
+      }
   ],
   Heading: [
     {
       main: "Special Education",
-      sub: "Lorem ipsum dolor sit amet, adipiscing elit. Vivamus nibh dolor gravida at eleifend"
+      sub: "Our dedicated team of educators and specialists work collaboratively to create individualized learning plans, tailored interventions, and a nurturing environment. "
     },
     {
       main: "Honors Classes",
-      sub: "Lorem ipsum dolor sit amet, adipiscing elit. Vivamus nibh dolor gravida at eleifend"
+      sub: "Honors classes provide a rigorous curriculum, engaging discussions, and opportunities for advanced research and critical thinking. "
     },
     {
       main: "Traditional Academies",
-      sub: "Lorem ipsum dolor sit amet, adipiscing elit. Vivamus nibh dolor gravida at eleifend"
+      sub: "Proudly offers a range of Traditional Academies, where students can delve into specialized areas of study and develop expertise in fields such as arts, sciences, technology, and more."
     }
   ],
-  mainHeading: "Online Learning Platform",
+  mainHeading: "Best Learning Platform",
   paragraph:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nibh dolor, gravida faucibus dolor consectetur, pulvinar rhoncus risus. Fusce vel rutrum mi."
+    "Prepare to embark on a transformative learning journey as we empower you with the tools to achieve academic excellence and unlock your full potential."
 };
 export default About;

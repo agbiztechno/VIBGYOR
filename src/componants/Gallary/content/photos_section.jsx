@@ -1,10 +1,10 @@
 // import Photos_section from "../componants/Photos_section";
-import image1 from '../images/christmas_day_image.png'
-import image2 from '../images/sports_day_image.png'
-import image3 from '../images/annual_day_image.png'
-import image4 from '../images/yoga_day_image.png'
-import image5 from '../images/children_day_image.png'
-import image6 from '../images/cricket_image.png'
+import image1 from '../../Home/Components/Images/Img1.jpg'
+import image2 from '../../Home/Components/Images/Img2.jpg'
+import image3 from '../../Home/Components/Images/Img3.jpg'
+import image4 from '../../Home/Components/Images/Img4.jpg'
+import image5 from '../../Home/Components/Images/Img5.jpg'
+import image6 from '../../Home/Components/Images/Img6.jpg'
 
 const photos_section = {
     Headings: [

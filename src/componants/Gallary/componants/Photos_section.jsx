@@ -15,7 +15,6 @@ const Photos_section = (props) => {
 
   return (
     <div className="photos_section_div">
-      <h1 className="photos_section_div_heading01">Image Gallery</h1>
       <div className="photos_section_photo-gallery">
         {photos_section.Headings.map((item, index) => (
           <div
@@ -24,7 +23,6 @@ const Photos_section = (props) => {
             onClick={() => openFullImage(item.i)}
           >
             <img src={item.i} alt="my_image" className="photos_section_image" />
-            <div className="photos_section_sub_headings">{item.h}</div>
           </div>
         ))}
       </div>
