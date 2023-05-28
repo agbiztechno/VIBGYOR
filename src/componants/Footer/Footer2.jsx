@@ -1,8 +1,13 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Style/Footer2.css";
-import first from "../../Image/logo.png";
 import { Link } from "react-router-dom";
+import first from "../../Image/logo.png";
+import FacebookRoundedIcon from "@mui/icons-material/FacebookRounded";
+import SubscriptionsRoundedIcon from "@mui/icons-material/SubscriptionsRounded";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import InstagramIcon from "@mui/icons-material/Instagram";
+
 const Footer = () => {
   const redirectToGoogleForm = (formUrl) => {
     window.open(formUrl, "_blank");
@@ -17,7 +22,7 @@ const Footer = () => {
             <div className="row mt-3">
               <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                 <h6 className="text-uppercase fw-bold">
-                  <img className="icon" src={first} alt="First slide" /> 
+                  <img className="icon" src={first} alt="First slide" />
                 </h6>
                 <hr className="mb-4 mt-0 d-inline-block mx-auto stylethird" />
                 <p>
@@ -60,7 +65,7 @@ const Footer = () => {
                 </p>
                 <p>
                   <Link to="/Online-Application" className="footer-link">
-                  Online Application
+                    Online Application
                   </Link>
                 </p>
                 <p>
@@ -72,16 +77,35 @@ const Footer = () => {
               <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                 <h6 className="text-uppercase fw-bold">Contact</h6>
                 <hr className="mb-4 mt-0 d-inline-block mx-auto stylethird" />
+                <p>Vibgyor Public School Chandauli Raibareli, India</p>
+                <p>principalofvibgyor @gmail.com</p>
+                <p>+91-9451745323</p>
+                <p>+91-9451745323</p>
                 <p>
-                  <i className="fas fa-home mr-3"></i> Vibgyor Public School
-Chandauli Raibareli, India
-                </p>
-                <p>
-                  <i className="fas fa-envelope mr-3"></i>{" "}
-                  principalofvibgyor @gmail.com
-                </p>
-                <p>
-                  <i className="fas fa-phone mr-3"></i> +91-9451745323
+                  <FacebookRoundedIcon
+                    id="Icon-MUI"
+                    onClick={() =>
+                      redirectToGoogleForm("https://m.facebook.com/vibgyorpublicschool")
+                    }
+                  />{" "}
+                  <SubscriptionsRoundedIcon
+                    id="Icon-MUI"
+                    onClick={() =>
+                      redirectToGoogleForm("https://www.youtube.com/channel/UC-HwqtOmbU1iVlobhKTa-rQ")
+                    }
+                  />{" "}
+                  <TwitterIcon
+                    id="Icon-MUI"
+                    onClick={() =>
+                      redirectToGoogleForm("https://twitter.com/vibgyor_school")
+                    }
+                  />{" "}
+                  <InstagramIcon
+                    id="Icon-MUI"
+                    onClick={() =>
+                      redirectToGoogleForm("https://www.instagram.com/vibgyor_group_of_schools_rbl/")
+                    }
+                  />
                 </p>
               </div>
             </div>
@@ -89,11 +113,14 @@ Chandauli Raibareli, India
         </section>
       </footer>
       <div className="text-center p-3 stylefour">
-      © 2023 <span style={{fontWeight: "600"}}>Vibgyor Public School</span> : Made by <a style={{cursor: "pointer", fontWeight: "600"}} onClick={() =>
-              redirectToGoogleForm(
-                "http://www.agbiztech.in/"
-              )
-            }>AGBIZ</a>
+        © 2023 <span style={{ fontWeight: "600" }}>Vibgyor Public School</span>{" "}
+        : Made by{" "}
+        <a
+          style={{ cursor: "pointer", fontWeight: "600" }}
+          onClick={() => redirectToGoogleForm("http://www.agbiztech.in/")}
+        >
+          AGBIZ
+        </a>
       </div>
     </div>
   );

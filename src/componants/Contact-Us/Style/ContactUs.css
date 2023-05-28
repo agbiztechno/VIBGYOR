@@ -22,7 +22,7 @@
     background-color: #ECEFF1;
 }
 .contact-1{
-    background-image: url('../second.jpg');
+    background-image: url('../second.jpg') !important;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

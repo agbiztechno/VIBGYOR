@@ -7,6 +7,16 @@
     background-color: #7c4dff; 
     height: 2px
 }
+#Icon-MUI{
+    font-size: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+#Icon-MUI:hover{
+    transform: scale(1.15);
+    transition-duration: 500ms;
+    color: rgb(189, 0, 0);
+}
 .stylefour{
     background-color: #ECEFF1;
 }

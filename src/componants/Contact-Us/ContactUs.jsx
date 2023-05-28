@@ -41,9 +41,8 @@ export default function ContactUs() {
     },
     validationSchema: validate,
     onSubmit: async (values) => {
-      const { fullname, email, contact, address, query } =
-        values;
-        const res = await axios({
+      const { fullname, email, contact, address, query } = values;
+        const res = await axios({ 
           method: "post",
           url: "https://v1.nocodeapi.com/roshanprajapati/google_sheets/UWqWwERnjqwcvzOG",
           params: { tabId: "Sheet1" },
